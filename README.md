@@ -1,22 +1,22 @@
 # elrond-index
-This repository will have an index for developers to have an easier access to the elrond network.
+📚This repository will be an index for all those who want to learn, know and develop on the elrond network repositories.
 
 
 ### Network Layer - Core
 [elrond-go:](https://github.com/ElrondNetwork/elrond-go) GO implentation to join to the Elrond Network as a observer or as a validator
-### Setups
-[elrond-go-scripts:](https://github.com/ElrondNetwork/elrond-go-scripts) Repository for installing, managing and benchmarking Elrond nodes. Works with [mainnet](https://github.com/ElrondNetwork/elrond-go-scripts-mainnet), [devnet](https://github.com/ElrondNetwork/elrond-go-scripts-devnet), [testnet](https://github.com/ElrondNetwork/elrond-go-scripts-testnet).
-- Mainnet: 
-
-### APIs
-[elrond-proxy-go:](https://github.com/ElrondNetwork/elrond-proxy-go) Is the gateway to use it on sdks like erdpy, erdjs, etc. Is the intermediary between the client layer and the elrond network layer.
-
-[api.elrond.com:](https://github.com/ElrondNetwork/api.elrond.com) Is a layer on top of elrond-proxy-go that adds access to historical data, caching and other endpoints
 
 ### Smart Contracts Layer
 [arwen-wasm-vm:](https://github.com/ElrondNetwork/arwen-wasm-vm)The virtual machine to run smart contracts in Elrond Network
 
 [elrond-wasm-rs:](https://github.com/ElrondNetwork/elrond-wasm-rs)Rust smart contract library designed for Elrond's Arwen VM
+
+### Setups 🛠
+[elrond-go-scripts:](https://github.com/ElrondNetwork/elrond-go-scripts) Repository for installing, managing and benchmarking Elrond nodes. It is the same as these repositories ([elrond-go-scripts-mainnet](https://github.com/ElrondNetwork/elrond-go-scripts-mainnet), [elrond-go-scripts-devnet](https://github.com/ElrondNetwork/elrond-go-scripts-devnet), [elrond-go-scripts-testnet](https://github.com/ElrondNetwork/elrond-go-scripts-testnet)) but here you define the environment for the setup of the mainnet|devnet|testnet.
+
+### APIs
+[elrond-proxy-go:](https://github.com/ElrondNetwork/elrond-proxy-go) Is the gateway to use it on sdks like erdpy, erdjs, etc. Is the intermediary between the client layer and the elrond network layer.
+
+[api.elrond.com:](https://github.com/ElrondNetwork/api.elrond.com) Is a layer on top of elrond-proxy-go that adds access to historical data, caching and other endpoints
 
 ### SDKs
 🛠 Elrond - Command Line Tools and SDK (Python, TypeScript, Go, Java) for interacting with the Elrond Network (in general) and Smart Contracts (in particular).
@@ -50,7 +50,15 @@ Skills: React.js, TS
  - [sc-bridge-elrond:](https://github.com/ElrondNetwork/sc-bridge-elrond) Smart contracts on the Elrond side to do a bridge swap corss-chain | Elrond TX <—> Ethereum TX
  - [sc-savings-account-rs:](https://github.com/ElrondNetwork/sc-savings-account-rs) Saving Account Smart Contract which use borrow payment method
  - [sc-flash-mint-rs:](https://github.com/ElrondNetwork/sc-flash-mint-rs) Smart Contract flash loan provider that does not require providers to add funds
+ - [sc-examples](https://github.com/ElrondNetwork/sc-examples) Elrond smart contract examples written in C / C++.
 
+## Tools
+ - [elrond-ide-vscode](https://github.com/ElrondNetwork/elrond-ide-vscode) 💻 VS Code extension for developing Elrond Smart Contracts - Rust, C and C++. 
 
 ## Diagram
-![elrondgithub](https://user-images.githubusercontent.com/82739614/134298491-1aed0084-b544-4aec-99a5-f21ec0d9bd68.png)
+The diagram has been created with [draw.io](draw.io) open source software
+![elrondgithub](https://user-images.githubusercontent.com/82739614/134597264-8598e894-ce9b-4b2b-97cb-557fc2df537a.png)
+
+## Contributing
+
+Contributions welcome! To contribute to the repository submit an issue with a link to the repository and a short summary 
