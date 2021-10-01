@@ -50,10 +50,14 @@ Skills: React.js, TS
  - [sc-bridge-elrond:](https://github.com/ElrondNetwork/sc-bridge-elrond) Smart contracts on the Elrond side to do a bridge swap corss-chain | Elrond TX <—> Ethereum TX
  - [sc-savings-account-rs:](https://github.com/ElrondNetwork/sc-savings-account-rs) Saving Account Smart Contract which use borrow payment method
  - [sc-flash-mint-rs:](https://github.com/ElrondNetwork/sc-flash-mint-rs) Smart Contract flash loan provider that does not require providers to add funds
- - [sc-examples](https://github.com/ElrondNetwork/sc-examples) Elrond smart contract examples written in C / C++.
+ - [sc-examples:](https://github.com/ElrondNetwork/sc-examples) Elrond smart contract examples written in C / C++.
 
 ## Tools
  - [elrond-ide-vscode](https://github.com/ElrondNetwork/elrond-ide-vscode) 💻 VS Code extension for developing Elrond Smart Contracts - Rust, C and C++. 
+
+## Wiki & Documentation
+ - [docs.elrond.com:](https://docs.elrond.com/) Official documentation for elrond network
+ - [elrondwiki.com:](https://elrondwiki.com/) Elrond Wiki in multiples languages
 
 ## Diagram
 The diagram has been created with [draw.io](draw.io) open source software
